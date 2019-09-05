@@ -109,27 +109,5 @@ cooperCoin.createTransaction(new Transaction('address2', 'address1', 50));
 console.log('\nStarting the miner...');
 cooperCoin.minePendingTransactions('bryans-address');
 
-// console.log('\nBalance of bryan is', cooperCoin.getBalanceOfAddress('bryans-address'));
 
-// console.log('\nStarting the miner again...');
-// cooperCoin.minePendingTransactions('bryans-address');
-
-// console.log('\nBalance of bryan is', cooperCoin.getBalanceOfAddress('bryans-address'));
-
-
-
-
-
-
-
-
-
-
-
-
-// console.log ('Mining block 1...');
-// cooperCoin.addBlock(new Block(1, "05/07/2018", {amount: 5}));
-
-// console.log ('Mining block 2...');
-// cooperCoin.addBlock(new Block(2, "10/07/2018", {amount: 10}));
 
